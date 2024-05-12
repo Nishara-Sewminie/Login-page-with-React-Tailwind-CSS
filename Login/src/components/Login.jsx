@@ -72,13 +72,22 @@ const Login = () => {
                 </div>
 
 <div className='w-full flex flex-col my-4'>
-    <button className='w-full text-white my-2 bg-[#060606] rounded-md p-4 text-center flex items-center justify-center'>
+    <button className='w-full text-white my-2 font-semibold bg-[#060606] rounded-md p-4 text-center flex items-center justify-center'>
         Log in
     </button>
-    <button className='w-full text-white my-2 bg-[#060606] rounded-md p-4 text-center flex items-center justify-center'>
-        Sign up
+    <button className='w-full text-[#060606] my-2 bg-white border-2 border-black rounded-md p-4 text-center flex items-center justify-center'>
+        Register
     </button>
 </div>
+
+<div className='w-full flex items-center justify-center relative py-2'>
+    <div className='w-full h-[1px] bg-black'></div>
+    <p className='text-lg absolute text-black/80 bg-[#f5f5f5]'>or</p>
+</div>
+
+<div className='w-full text-[#060606] my-2 bg-white border-2 border-black rounded-md p-4 text-center flex items-center justify-center'>
+        Sign In with Google
+    </div>
 
             </div>
         </div>
