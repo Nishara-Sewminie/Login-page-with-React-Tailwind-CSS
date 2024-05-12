@@ -1,5 +1,6 @@
 import React from 'react'
 import cover_image from './images/log-banner.jpg'
+import google_icon from './images/google-icon.png'
 
 const colors = {
     primary: "#060606",
@@ -72,10 +73,10 @@ const Login = () => {
                 </div>
 
 <div className='w-full flex flex-col my-4'>
-    <button className='w-full text-white my-2 font-semibold bg-[#060606] rounded-md p-4 text-center flex items-center justify-center'>
+    <button className='w-full text-white my-2 font-semibold bg-[#060606] rounded-md p-4 text-center flex items-center justify-center cursor-pointer'>
         Log in
     </button>
-    <button className='w-full text-[#060606] my-2 bg-white border-2 border-black rounded-md p-4 text-center flex items-center justify-center'>
+    <button className='w-full text-[#060606] my-2 bg-white border border-black rounded-md p-4 text-center flex items-center justify-center'>
         Register
     </button>
 </div>
@@ -85,7 +86,8 @@ const Login = () => {
     <p className='text-lg absolute text-black/80 bg-[#f5f5f5]'>or</p>
 </div>
 
-<div className='w-full text-[#060606] my-2 bg-white border-2 border-black rounded-md p-4 text-center flex items-center justify-center'>
+<div className='w-full text-[#060606] my-2 bg-white border border-black/40 rounded-md p-4 text-center flex items-center justify-center cursor-pointer'>
+        <img src={google_icon} className='h-6 mr-2'/>
         Sign In with Google
     </div>
 
